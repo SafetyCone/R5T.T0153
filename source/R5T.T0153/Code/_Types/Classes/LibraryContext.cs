@@ -1,8 +1,11 @@
 ﻿using System;
 
+using R5T.T0142;
+
 
 namespace R5T.T0153
 {
+    [DataTypeMarker]
     public class LibraryContext
     {
         public string LibraryName { get; set; }

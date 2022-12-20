@@ -15,3 +15,15 @@ namespace R5T.T0153
         public string ProjectFilePath { get; set; }
     }
 }
+
+
+namespace R5T.T0153.N001
+{
+    [DataTypeMarker]
+    public class ProjectContext : ProjectFileContext
+    {
+        public string ProjectName { get; set; }
+        public string ProjectDescription { get; set; }
+        public string ProjectDefaultNamespaceName { get; set; }
+    }
+}
